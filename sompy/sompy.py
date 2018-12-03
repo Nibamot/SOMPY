@@ -199,7 +199,7 @@ class SOM(object):
     def train(self,
               n_job=1,
               shared_memory=False,
-              verbose='info',
+              verbose='debug',
               train_rough_len=None,
               train_rough_radiusin=None,
               train_rough_radiusfin=None,
