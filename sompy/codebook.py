@@ -55,7 +55,7 @@ class Codebook(object):
     def random_initialization(self, data):
         """
         :param data: data to use for the initialization
-        :returns: initialized matrix with same dimension as input data
+        :returns: initialized matrix with same dimension as (mapsize)input data
         """
         mn = np.tile(np.min(data, axis=0), (self.nnodes, 1))
         mx = np.tile(np.max(data, axis=0), (self.nnodes, 1))
